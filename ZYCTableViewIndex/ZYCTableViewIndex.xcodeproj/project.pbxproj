@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1431C6081FBC30A500B57CEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C6071FBC30A500B57CEF /* AppDelegate.m */; };
+		1431C60B1FBC30A500B57CEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C60A1FBC30A500B57CEF /* ViewController.m */; };
+		1431C60E1FBC30A500B57CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1431C60C1FBC30A500B57CEF /* Main.storyboard */; };
+		1431C6101FBC30A500B57CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1431C60F1FBC30A500B57CEF /* Assets.xcassets */; };
+		1431C6131FBC30A500B57CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1431C6111FBC30A500B57CEF /* LaunchScreen.storyboard */; };
+		1431C6161FBC30A500B57CEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C6151FBC30A500B57CEF /* main.m */; };
+		1431C6201FBC30A500B57CEF /* ZYCTableViewIndexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C61F1FBC30A500B57CEF /* ZYCTableViewIndexTests.m */; };
+		1431C62B1FBC30A500B57CEF /* ZYCTableViewIndexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C62A1FBC30A500B57CEF /* ZYCTableViewIndexUITests.m */; };
+		1431C63F1FBC30BF00B57CEF /* DSectionIndexItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C63A1FBC30BF00B57CEF /* DSectionIndexItemView.m */; };
+		1431C6401FBC30BF00B57CEF /* DSectionIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C63C1FBC30BF00B57CEF /* DSectionIndexView.m */; };
+		1431C6411FBC30BF00B57CEF /* HMOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1431C63E1FBC30BF00B57CEF /* HMOffice.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1431C61C1FBC30A500B57CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1431C5FB1FBC30A500B57CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1431C6021FBC30A500B57CEF;
+			remoteInfo = ZYCTableViewIndex;
+		};
+		1431C6271FBC30A500B57CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1431C5FB1FBC30A500B57CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1431C6021FBC30A500B57CEF;
+			remoteInfo = ZYCTableViewIndex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1431C6031FBC30A500B57CEF /* ZYCTableViewIndex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCTableViewIndex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1431C6061FBC30A500B57CEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1431C6071FBC30A500B57CEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1431C6091FBC30A500B57CEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1431C60A1FBC30A500B57CEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1431C60D1FBC30A500B57CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1431C60F1FBC30A500B57CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1431C6121FBC30A500B57CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1431C6141FBC30A500B57CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1431C6151FBC30A500B57CEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1431C61B1FBC30A500B57CEF /* ZYCTableViewIndexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCTableViewIndexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1431C61F1FBC30A500B57CEF /* ZYCTableViewIndexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCTableViewIndexTests.m; sourceTree = "<group>"; };
+		1431C6211FBC30A500B57CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1431C6261FBC30A500B57CEF /* ZYCTableViewIndexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCTableViewIndexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1431C62A1FBC30A500B57CEF /* ZYCTableViewIndexUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCTableViewIndexUITests.m; sourceTree = "<group>"; };
+		1431C62C1FBC30A500B57CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1431C6391FBC30BF00B57CEF /* DSectionIndexItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSectionIndexItemView.h; sourceTree = "<group>"; };
+		1431C63A1FBC30BF00B57CEF /* DSectionIndexItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSectionIndexItemView.m; sourceTree = "<group>"; };
+		1431C63B1FBC30BF00B57CEF /* DSectionIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSectionIndexView.h; sourceTree = "<group>"; };
+		1431C63C1FBC30BF00B57CEF /* DSectionIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSectionIndexView.m; sourceTree = "<group>"; };
+		1431C63D1FBC30BF00B57CEF /* HMOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMOffice.h; sourceTree = "<group>"; };
+		1431C63E1FBC30BF00B57CEF /* HMOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMOffice.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1431C6001FBC30A500B57CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1431C6181FBC30A500B57CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1431C6231FBC30A500B57CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1431C5FA1FBC30A500B57CEF = {
+			isa = PBXGroup;
+			children = (
+				1431C6051FBC30A500B57CEF /* ZYCTableViewIndex */,
+				1431C61E1FBC30A500B57CEF /* ZYCTableViewIndexTests */,
+				1431C6291FBC30A500B57CEF /* ZYCTableViewIndexUITests */,
+				1431C6041FBC30A500B57CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1431C6041FBC30A500B57CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1431C6031FBC30A500B57CEF /* ZYCTableViewIndex.app */,
+				1431C61B1FBC30A500B57CEF /* ZYCTableViewIndexTests.xctest */,
+				1431C6261FBC30A500B57CEF /* ZYCTableViewIndexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1431C6051FBC30A500B57CEF /* ZYCTableViewIndex */ = {
+			isa = PBXGroup;
+			children = (
+				1431C6381FBC30BF00B57CEF /* TableViewSectionIndex */,
+				1431C6061FBC30A500B57CEF /* AppDelegate.h */,
+				1431C6071FBC30A500B57CEF /* AppDelegate.m */,
+				1431C6091FBC30A500B57CEF /* ViewController.h */,
+				1431C60A1FBC30A500B57CEF /* ViewController.m */,
+				1431C60C1FBC30A500B57CEF /* Main.storyboard */,
+				1431C60F1FBC30A500B57CEF /* Assets.xcassets */,
+				1431C6111FBC30A500B57CEF /* LaunchScreen.storyboard */,
+				1431C6141FBC30A500B57CEF /* Info.plist */,
+				1431C6151FBC30A500B57CEF /* main.m */,
+			);
+			path = ZYCTableViewIndex;
+			sourceTree = "<group>";
+		};
+		1431C61E1FBC30A500B57CEF /* ZYCTableViewIndexTests */ = {
+			isa = PBXGroup;
+			children = (
+				1431C61F1FBC30A500B57CEF /* ZYCTableViewIndexTests.m */,
+				1431C6211FBC30A500B57CEF /* Info.plist */,
+			);
+			path = ZYCTableViewIndexTests;
+			sourceTree = "<group>";
+		};
+		1431C6291FBC30A500B57CEF /* ZYCTableViewIndexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1431C62A1FBC30A500B57CEF /* ZYCTableViewIndexUITests.m */,
+				1431C62C1FBC30A500B57CEF /* Info.plist */,
+			);
+			path = ZYCTableViewIndexUITests;
+			sourceTree = "<group>";
+		};
+		1431C6381FBC30BF00B57CEF /* TableViewSectionIndex */ = {
+			isa = PBXGroup;
+			children = (
+				1431C6391FBC30BF00B57CEF /* DSectionIndexItemView.h */,
+				1431C63A1FBC30BF00B57CEF /* DSectionIndexItemView.m */,
+				1431C63B1FBC30BF00B57CEF /* DSectionIndexView.h */,
+				1431C63C1FBC30BF00B57CEF /* DSectionIndexView.m */,
+				1431C63D1FBC30BF00B57CEF /* HMOffice.h */,
+				1431C63E1FBC30BF00B57CEF /* HMOffice.m */,
+			);
+			path = TableViewSectionIndex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1431C6021FBC30A500B57CEF /* ZYCTableViewIndex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1431C62F1FBC30A500B57CEF /* Build configuration list for PBXNativeTarget "ZYCTableViewIndex" */;
+			buildPhases = (
+				1431C5FF1FBC30A500B57CEF /* Sources */,
+				1431C6001FBC30A500B57CEF /* Frameworks */,
+				1431C6011FBC30A500B57CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCTableViewIndex;
+			productName = ZYCTableViewIndex;
+			productReference = 1431C6031FBC30A500B57CEF /* ZYCTableViewIndex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1431C61A1FBC30A500B57CEF /* ZYCTableViewIndexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1431C6321FBC30A500B57CEF /* Build configuration list for PBXNativeTarget "ZYCTableViewIndexTests" */;
+			buildPhases = (
+				1431C6171FBC30A500B57CEF /* Sources */,
+				1431C6181FBC30A500B57CEF /* Frameworks */,
+				1431C6191FBC30A500B57CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1431C61D1FBC30A500B57CEF /* PBXTargetDependency */,
+			);
+			name = ZYCTableViewIndexTests;
+			productName = ZYCTableViewIndexTests;
+			productReference = 1431C61B1FBC30A500B57CEF /* ZYCTableViewIndexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1431C6251FBC30A500B57CEF /* ZYCTableViewIndexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1431C6351FBC30A500B57CEF /* Build configuration list for PBXNativeTarget "ZYCTableViewIndexUITests" */;
+			buildPhases = (
+				1431C6221FBC30A500B57CEF /* Sources */,
+				1431C6231FBC30A500B57CEF /* Frameworks */,
+				1431C6241FBC30A500B57CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1431C6281FBC30A500B57CEF /* PBXTargetDependency */,
+			);
+			name = ZYCTableViewIndexUITests;
+			productName = ZYCTableViewIndexUITests;
+			productReference = 1431C6261FBC30A500B57CEF /* ZYCTableViewIndexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1431C5FB1FBC30A500B57CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = chengzhen;
+				TargetAttributes = {
+					1431C6021FBC30A500B57CEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1431C61A1FBC30A500B57CEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1431C6021FBC30A500B57CEF;
+					};
+					1431C6251FBC30A500B57CEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1431C6021FBC30A500B57CEF;
+					};
+				};
+			};
+			buildConfigurationList = 1431C5FE1FBC30A500B57CEF /* Build configuration list for PBXProject "ZYCTableViewIndex" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1431C5FA1FBC30A500B57CEF;
+			productRefGroup = 1431C6041FBC30A500B57CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1431C6021FBC30A500B57CEF /* ZYCTableViewIndex */,
+				1431C61A1FBC30A500B57CEF /* ZYCTableViewIndexTests */,
+				1431C6251FBC30A500B57CEF /* ZYCTableViewIndexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1431C6011FBC30A500B57CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1431C6131FBC30A500B57CEF /* LaunchScreen.storyboard in Resources */,
+				1431C6101FBC30A500B57CEF /* Assets.xcassets in Resources */,
+				1431C60E1FBC30A500B57CEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1431C6191FBC30A500B57CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1431C6241FBC30A500B57CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1431C5FF1FBC30A500B57CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1431C6401FBC30BF00B57CEF /* DSectionIndexView.m in Sources */,
+				1431C60B1FBC30A500B57CEF /* ViewController.m in Sources */,
+				1431C6411FBC30BF00B57CEF /* HMOffice.m in Sources */,
+				1431C63F1FBC30BF00B57CEF /* DSectionIndexItemView.m in Sources */,
+				1431C6161FBC30A500B57CEF /* main.m in Sources */,
+				1431C6081FBC30A500B57CEF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1431C6171FBC30A500B57CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1431C6201FBC30A500B57CEF /* ZYCTableViewIndexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1431C6221FBC30A500B57CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1431C62B1FBC30A500B57CEF /* ZYCTableViewIndexUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1431C61D1FBC30A500B57CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1431C6021FBC30A500B57CEF /* ZYCTableViewIndex */;
+			targetProxy = 1431C61C1FBC30A500B57CEF /* PBXContainerItemProxy */;
+		};
+		1431C6281FBC30A500B57CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1431C6021FBC30A500B57CEF /* ZYCTableViewIndex */;
+			targetProxy = 1431C6271FBC30A500B57CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1431C60C1FBC30A500B57CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1431C60D1FBC30A500B57CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1431C6111FBC30A500B57CEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1431C6121FBC30A500B57CEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1431C62D1FBC30A500B57CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1431C62E1FBC30A500B57CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1431C6301FBC30A500B57CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCTableViewIndex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhen.ZYCTableViewIndex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1431C6311FBC30A500B57CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCTableViewIndex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhen.ZYCTableViewIndex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1431C6331FBC30A500B57CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCTableViewIndexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhen.ZYCTableViewIndexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCTableViewIndex.app/ZYCTableViewIndex";
+			};
+			name = Debug;
+		};
+		1431C6341FBC30A500B57CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCTableViewIndexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhen.ZYCTableViewIndexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCTableViewIndex.app/ZYCTableViewIndex";
+			};
+			name = Release;
+		};
+		1431C6361FBC30A500B57CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCTableViewIndexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhen.ZYCTableViewIndexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYCTableViewIndex;
+			};
+			name = Debug;
+		};
+		1431C6371FBC30A500B57CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCTableViewIndexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengzhen.ZYCTableViewIndexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYCTableViewIndex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1431C5FE1FBC30A500B57CEF /* Build configuration list for PBXProject "ZYCTableViewIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1431C62D1FBC30A500B57CEF /* Debug */,
+				1431C62E1FBC30A500B57CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1431C62F1FBC30A500B57CEF /* Build configuration list for PBXNativeTarget "ZYCTableViewIndex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1431C6301FBC30A500B57CEF /* Debug */,
+				1431C6311FBC30A500B57CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1431C6321FBC30A500B57CEF /* Build configuration list for PBXNativeTarget "ZYCTableViewIndexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1431C6331FBC30A500B57CEF /* Debug */,
+				1431C6341FBC30A500B57CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1431C6351FBC30A500B57CEF /* Build configuration list for PBXNativeTarget "ZYCTableViewIndexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1431C6361FBC30A500B57CEF /* Debug */,
+				1431C6371FBC30A500B57CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1431C5FB1FBC30A500B57CEF /* Project object */;
+}
